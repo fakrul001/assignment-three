@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinterio</title>
+  <!-- Tailwind cdn-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- DaisyUI cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  <!-- Manrope font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- customization -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            green: '#ABEF5F',
+            grey: '#737373'
+          }
+        }
+      }
+    }
+  </script>
 </head>
+
 <body>
-    
+  <header class="bg-gradient-to-r from-slate-50 to-gray-50">
+    <!-- navbar -->
+    <nav class="container lg:mx-auto py-7 lg:py-6 justify-between items-center">
+      <div class="flex justify-between items-center mx-5 lg:mx-0">
+        <div class="flex justify-center items-center">
+          <i class="bg-green rounded-full p-2 text-base -rotate-45 fa-solid fa-arrow-right"></i>
+          <a class="ml-2 text-4xl font-bold">Rinterio</a>
+        </div>
+        <div class="hidden lg:flex lg:items-center">
+          <ul class="flex text-[18px] font-semibold text-grey gap-10">
+            <li class="text-gray-900"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex items-center">
+          <div class="lg:flex hidden justify-around items-center gap-2">
+            <i class="p-3 rounded-full bg-white text-grey fa-solid fa-magnifying-glass"></i>
+            <i class="p-3 rounded-full bg-white text-grey fa-solid fa-cart-shopping"></i>
+            <span class="bg-green flex justify-around items-center rounded-full p-2">
+              <p class="font-semibold mr-2">Book Consult</p>
+              <span class="bg-black w-10 h-10 flex justify-center items-center rounded-full"><i
+                  class="text-white text-base -rotate-45 fa-solid fa-arrow-right"></i></span>
+            </span>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="lg:hidden">
+              <i class="p-3 rounded-full bg-white fa-solid fa-bars"></i>
+            </div>
+            <ul tabindex="0"
+              class="bg-green menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 p-2 shadow right-3">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 </body>
+
 </html>
