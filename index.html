@@ -134,7 +134,7 @@
                 you feel truly at home.
               </p>
               <span
-                class="bg-green w-full mx-auto flex justify-center items-center rounded-full p-2"
+                class="bg-light-green w-full lg:w-56 mx-auto border-2 border-green flex justify-center items-center rounded-full p-2"
               >
                 <p class="font-bold mr-2 text-xl">View Details</p>
                 <span
@@ -418,8 +418,12 @@
         </div>
       </section>
 
-      <!-- Project Discussion -->
-      <section class="py-6 lg:py-10 px-5 lg:px-0 bg-back bg-no-repeat bg-cover bg-center">
+      <!-- Previous work section -->
+
+      <!-- Project Discussion section -->
+      <section
+        class="py-5 lg:py-10 px-5 lg:px-0 bg-back bg-no-repeat bg-cover bg-center"
+      >
         <div class="lg:w-3/5 mx-auto py-6">
           <div
             class="bg-[#abef5f33] px-3 py-3 text-center rounded-full w-40 mx-auto"
@@ -467,19 +471,60 @@
                 class="input bg-white lg:w-1/2 rounded-full"
               />
             </div>
-            <textarea class="textarea h-40 w-full rounded-3xl" placeholder="Write your message here"></textarea>
+            <textarea
+              class="textarea h-40 w-full rounded-3xl"
+              placeholder="Write your message here"
+            ></textarea>
             <span
-            class="bg-green border-2 border-green w-full mx-auto flex justify-center items-center rounded-full py-3 mt-8"
-          >
-            <p class="font-bold mr-2 text-xl">Send Mail</p>
-            <span
-              class="bg-dark-grey w-8 h-8 flex justify-center items-center rounded-full"
-              ><i class="text-white -rotate-45 fa-solid fa-arrow-right"></i
-            ></span>
-          </span>
+              class="bg-green border-2 border-green w-full mx-auto flex justify-center items-center rounded-full py-3 mt-8"
+            >
+              <p class="font-bold mr-2 text-xl">Send Mail</p>
+              <span
+                class="bg-dark-grey w-8 h-8 flex justify-center items-center rounded-full"
+                ><i class="text-white -rotate-45 fa-solid fa-arrow-right"></i
+              ></span>
+            </span>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="bg-dark-grey py-16">
+      <div class="lg:w-3/5 mx-auto px-5 lg:px-0">
+        <div class="flex justify-center items-center">
+          <i
+            class="bg-green rounded-full p-3 text-2xl -rotate-45 fa-solid fa-arrow-right"
+          ></i>
+          <a class="ml-3 text-5xl text-white font-extrabold">Rinterio</a>
+        </div>
+        <p class="text-grey text-center font-semibold pt-5">
+          Building Dreams, Crafting Spaces with Precision and Passion. We
+          transform your vision into reality, creating enduring structures that
+          blend functionality, elegance, and innovation, one project at a time.
+        </p>
+        <div>
+          <ul
+            class="flex flex-col items-center lg:flex-row lg:justify-between font-semibold text-gray-400 text-xl py-10 lg:py-16 gap-5 lg:gap-0"
+          >
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <span
+          class="bg-green flex justify-center lg:justify-between lg:items-center rounded-full lg:w-52 mx-auto py-2 px-4"
+        >
+          <p class="font-extrabold mr-2 text-xl">Book Consult</p>
+          <span
+            class="bg-dark-grey w-8 h-8 flex justify-center items-center rounded-full"
+            ><i
+              class="text-white text-base -rotate-45 fa-solid fa-arrow-right"
+            ></i
+          ></span>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
