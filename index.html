@@ -419,12 +419,162 @@
       </section>
 
       <!-- Previous work section -->
+      <section class="bg-base-200">
+        <div class="container mx-auto p-5 lg:p-0">
+          <div class="w-full lg:w-4/5 mx-auto pt-10 lg:pt-16">
+            <div>
+              <div
+                class="bg-white px-3 py-3 text-center rounded-full w-44 lg:w-40 mx-auto"
+              >
+                <i class="fa-solid fa-arrow-right mr-2 lg:mr-1"></i>
+                <span class="font-bold">Achievements</span>
+              </div>
+              <h3
+                class="text-dark-grey text-3xl lg:text-5xl font-extrabold text-center my-5"
+              >
+                Our Past Projects
+              </h3>
+              <p
+                class="w-full lg:w-4/5 mx-auto text-center font-semibold text-grey"
+              >
+                Past projects of our company showcase a proven track record of
+                delivering high-quality, innovative, and client-focused
+                solutions across various sectors, consistently meeting and
+                exceeding expectations.
+              </p>
+            </div>
+          </div>
+          <!-- Gallery -->
+          <div class="py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2">
+            <!-- first project -->
+            <div class="p-5">
+              <div class="relative">
+                <img class="h-72 w-full" src="./images/article1.png" alt="" />
+                <div class="absolute bottom-5 left-4">
+                  <p class="backdrop-blur-sm bg-grey/30 text-2xl text-amber-400 font-extrabold mb-4 p-3 rounded-full">
+                    Resort
+                  </p>
+                  <span
+                    class="backdrop-blur-lg bg-grey/60 text-green p-2 text-center rounded-full w-40 mx-auto"
+                    onclick="house_1.showModal()"
+                  >
+                    <i class="fa-solid fa-arrow-right mr-2 lg:mr-1"></i>
+                    <span class="font-bold">View Info</span>
+                  </span>
+                </div>
+              </div>
+              <dialog id="house_1" class="modal">
+                <div class="modal-box w-10/12 lg:w-7/12 lg:max-w-5xl">
+                  <img class="h-80 w-full" src="./images/article1.png" alt="" />
+                  <p class="py-4 text-justify text-sm lg:text-base lg:text-center text-grey font-semibold">The resort project blends luxurious design with sustainable practices, creating a tranquil retreat that harmonizes with its natural surroundings while offering exceptional comfort and amenities.</p>
+                  <div class="modal-action flex justify-center">
+                    <form method="dialog">
+                      <!-- if there is a button, it will close the modal -->
+                      <button class="p-3 bg-light-green focus:outline-none border-2 border-green rounded-2xl font-semibold">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+            <!-- second project -->
+            <div class="p-5">
+              <div class="relative">
+                <img class="h-72 w-full" src="./images/article2.png" alt="" />
+                <div class="absolute bottom-5 left-4">
+                  <p class="backdrop-blur-sm bg-grey/30 text-2xl text-amber-400 font-extrabold mb-4 p-3 rounded-full">
+                    Commercial Space
+                  </p>
+                  <span
+                    class="backdrop-blur-lg bg-grey/60 text-green p-2 text-center rounded-full w-40 mx-auto"
+                    onclick="house_2.showModal()"
+                  >
+                    <i class="fa-solid fa-arrow-right mr-2 lg:mr-1"></i>
+                    <span class="font-bold">View Info</span>
+                  </span>
+                </div>
+              </div>
+              <dialog id="house_2" class="modal">
+                <div class="modal-box w-10/12 lg:w-7/12 lg:max-w-5xl">
+                  <img class="h-80 w-full" src="./images/article2.png" alt="" />
+                  <p class="py-4 text-justify text-sm lg:text-base lg:text-center text-grey font-semibold">The commercial space project exemplifies innovative design and efficient functionality, delivering a modern, versatile environment tailored to meet the dynamic needs of businesses and enhance productivity.</p>
+                  <div class="modal-action flex justify-center">
+                    <form method="dialog">
+                      <!-- if there is a button, it will close the modal -->
+                      <button class="p-3 bg-light-green focus:outline-none border-2 border-green rounded-2xl font-semibold">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+            <!-- third project -->
+            <div class="p-5">
+              <div class="relative">
+                <img class="h-72 w-full" src="./images/article3.png" alt="" />
+                <div class="absolute bottom-5 left-4">
+                  <p class="backdrop-blur-sm bg-grey/30 text-2xl text-amber-400 font-extrabold mb-4 p-3 rounded-full">
+                    Residential Complex
+                  </p>
+                  <span
+                    class="backdrop-blur-lg bg-grey/60 text-green p-2 text-center rounded-full w-40 mx-auto"
+                    onclick="house_3.showModal()"
+                  >
+                    <i class="fa-solid fa-arrow-right mr-2 lg:mr-1"></i>
+                    <span class="font-bold">View Info</span>
+                  </span>
+                </div>
+              </div>
+              <dialog id="house_3" class="modal">
+                <div class="modal-box w-10/12 lg:w-7/12 lg:max-w-5xl">
+                  <img class="h-80 w-full" src="./images/article3.png" alt="" />
+                  <p class="py-4 text-justify text-sm lg:text-base lg:text-center text-grey font-semibold">residential house boasts an open living area, a gourmet kitchen, a peaceful master suite, and a lovely landscaped backyard.</p>
+                  <div class="modal-action flex justify-center">
+                    <form method="dialog">
+                      <!-- if there is a button, it will close the modal -->
+                      <button class="p-3 bg-light-green focus:outline-none border-2 border-green rounded-2xl font-semibold">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+            <!-- fourth project -->
+            <div class="p-5">
+              <div class="relative">
+                <img class="h-72 w-full" src="./images/Rectangle.png" alt="" />
+                <div class="absolute bottom-5 left-4">
+                  <p class="backdrop-blur-sm bg-grey/30 text-2xl text-amber-400 font-extrabold mb-4 p-3 rounded-full">
+                    Office
+                  </p>
+                  <span
+                    class="backdrop-blur-lg bg-grey/60 text-green p-2 text-center rounded-full w-40 mx-auto"
+                    onclick="house_4.showModal()"
+                  >
+                    <i class="fa-solid fa-arrow-right mr-2 lg:mr-1"></i>
+                    <span class="font-bold">View Info</span>
+                  </span>
+                </div>
+              </div>
+              <dialog id="house_4" class="modal">
+                <div class="modal-box w-10/12 lg:w-7/12 lg:max-w-5xl">
+                  <img class="h-80 w-full" src="./images/Rectangle.png" alt="" />
+                  <p class="py-4 text-justify text-sm lg:text-base lg:text-center text-grey font-semibold">The office building project combines sleek, modern architecture with practical design, creating a professional and efficient workspace that fosters collaboration and meets the evolving needs of businesses.</p>
+                  <div class="modal-action flex justify-center">
+                    <form method="dialog">
+                      <!-- if there is a button, it will close the modal -->
+                      <button class="p-3 bg-light-green focus:outline-none border-2 border-green rounded-2xl font-semibold">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Project Discussion section -->
       <section
         class="py-5 lg:py-10 px-5 lg:px-0 bg-back bg-no-repeat bg-cover bg-center"
       >
-        <div class="lg:w-3/5 mx-auto py-6">
+        <div class="container lg:w-3/5 mx-auto py-6">
           <div
             class="bg-[#abef5f33] px-3 py-3 text-center rounded-full w-40 mx-auto"
           >
@@ -490,7 +640,7 @@
     </main>
 
     <footer class="bg-dark-grey pt-10 pb-8">
-      <div class="lg:w-3/5 mx-auto px-5 lg:px-0">
+      <div class="container lg:w-3/5 mx-auto px-5 lg:px-0">
         <div class="flex justify-center items-center">
           <i
             class="bg-green rounded-full p-3 text-2xl -rotate-45 fa-solid fa-arrow-right"
